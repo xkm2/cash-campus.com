@@ -7,17 +7,25 @@
 
 
 /* Required height of parents of the Full Page Intro and Intro itself */
-html,
-body,
-.splash{
-  height: 100%; 
+.main{
   background-image: url('../img/commerce.jpg'); 
   background-repeat: no-repeat; 
   background-size:  cover;
  
 }
+.site{
+  background-image: url('../img/commerce-yellow.jpg'); 
+  background-repeat: no-repeat; 
+  background-size:  cover;
+}
+html,
+body,
+.bg{
+  height: 100%; 
+ 
+}
 
-.splash .mask {
+.bg .mask {
   position: absolute;
   top: 0;
   right: 0;
